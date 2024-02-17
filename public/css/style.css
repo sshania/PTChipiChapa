@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Poppins:wght@200&display=swap');
+
+html, body{
+    height: 100vh;
+    margin: 0;
+    background-color: #1B1919;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-family: 'Lexend', sans-serif;
+    cursor: url('/assets/awok.jpg');
+}
+
+.img-bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7),rgba( 0, 0, 39, 0.7)), url(/assets/home.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ul-navbar{
+    padding: 5px;
+    margin: auto;
+    background-color: white;
+}
+
+.nav-logo{
+    width: 120px;
+    padding-left: 2rem;
+}
+
+.nav-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-head2{
+    font-size: large;
+    gap: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 7rem;
+    list-style: none;
+    color: #1B1919;
+}
+
+.home-butt{
+    text-decoration: none;
+    color: #1B1919;
+}
+
+.home-butt:hover{
+    text-decoration: none;
+    color: SkyBlue;
+}
+
+#home-act{
+    border-bottom: 2px solid SkyBlue;
+}
+
+.activity-butt{
+    color: #1B1919;
+    text-decoration: none;
+}
+
+.activity-butt:hover{
+    color:SkyBlue;
+}
+
+#act-act{
+    border-bottom: 2px solid SkyBlue;
+}
+
+#act-act:hover{
+    color: #1B1919;
+}
+
+.login-butt{
+    border: 2px solid SkyBlue;
+    text-decoration: none;
+    color: #1B1919;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.login-butt:hover{
+    background-color: SkyBlue;
+    color: #1B1919;
+    padding: 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.act-butt{
+    margin-top: 3%;
+}
+
+.inp-butt{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.view-butt:hover, .input-butt:hover{
+    padding: 30px 60px 30px 60px;
+    background-color: #1B1919;
+    border-radius: 45px;
+    text-decoration: none;
+    color: lightskyblue;
+    font-size: large;
+}
+
+.view-butt, .input-butt{
+    padding: 30px 60px 30px 60px;
+    border: 5px solid;
+    background-color: lightskyblue;
+    border-radius: 45px;
+    text-decoration: none;
+    color: #1B1919;
+    font-size: large;
+}
+
+.mid-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    color: lightskyblue;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#mid-title{
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.mid-desc{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 600px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    /* background-color: white; */
+}
+
+.mid-bord{
+    padding: 200px 590px 350px 590px;
+    margin-bottom: 0px;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 20px;
+}
+
+.text-bord{
+    padding: 0px 50px 90px 0px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+    gap: 40px;
+}
+
+.bord{
+    padding: 120px 30px 170px 120px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    background-color: #1B1919;
+}
+
+.bord img{
+    width: 90px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bord-text{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bot-butt{
+    position: absolute;
+    left: 0;
+    right: 0;
+    gap: 40px;
+    padding: 50px;
+    margin-top: 12rem;
+    margin-left: 29rem;
+    margin-right: 32rem;
+    background-color: lavender;
+    border-radius: 50px;
+}
+
+.bot-butt:hover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    gap: 40px;
+    padding: 50px;
+    margin-top: 12rem;
+    margin-left: 29rem;
+    margin-right: 32rem;
+    border-radius: 50px;
+    border: 2px solid lavender;
+    background-color: white;
+    /* transition-delay: 0; */
+}
+
+.bot-butt-text{
+    text-decoration: none;
+    color: #1B1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#login-act {
+    background-color: PaleTurquoise;
+}
+
+.log-body {
+    height: 100vh;
+    background-color: #1B1919;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-act{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+}
