@@ -5,11 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{asset('css/createstyle.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 
 <body>
+    <nav>
+        <ul class="ul-navbar">
+            <div class="nav-head">
+                <a href="main">
+                    <img class="nav-logo" src="/assets/logo.png" alt="logo">
+                </a>
+                <ul class="nav-head2">
+                    <a class="home-butt" href="main">Home</a>
+                    <a class="activity-butt" id="act-act" href="activity">Activity</a>
+                    <a class="login-butt" href="login">Login</a>
+                </ul>
+            </div>
+        </ul>
+    </nav>
 
-    <h1>Edit Data</h1>
+    <div class="img-bg"> 
+        <div class="create-bord"> 
+            <h1>Edit Data</h1>
 
     <div>
         @if($errors->any())
@@ -72,5 +90,9 @@
         </div>
 
     </form>
+        </div>
+    </div>
+
+    
 </body>
 </html>

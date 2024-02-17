@@ -15,7 +15,7 @@
         <ul class="ul-navbar">
             <div class="nav-head">
                 <a href="main">
-                    <img class="nav-logo" src="assets/logo.png" alt="logo">
+                    <img class="nav-logo" src="/assets/logo.png" alt="logo">
                 </a>
                 <ul class="nav-head2">
                     <a class="home-butt" href="main">Home</a>
@@ -26,6 +26,7 @@
         </ul>
     </nav>
 
+<div class="img-bg"> 
     <div class="create-bord"> 
         <h1>Insert Data</h1>
         
@@ -88,6 +89,8 @@
 
         </form>
     </div>
+</div>
+    
     
 </body>
 </html>
