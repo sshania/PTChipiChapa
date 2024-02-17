@@ -74,8 +74,9 @@ class EmploController extends Controller
         return redirect(route('Emplo.index'))->with('sucess', 'Data Updated Succesfuly');
     }
 
-    public function destroy(Emplo $emplos)
+    public function destroy(string $id)
     {
+        $emplos =Emplo::where('id', $id)->first();
         $emplos->delete();
         return redirect(route('Emplo.index'))->with('sucess', 'Data Deleted Succesfuly');
     }

@@ -18,3 +18,33 @@
     margin-left: 30%;
     margin-right: 30%;
 }
+
+.back-butt{
+    position: absolute;
+    left: 0;
+    right: 0;
+    gap: 40px;
+    padding: 50px;
+    margin-top: 5rem;
+    /* margin-left: 29rem;
+    margin-right: 32rem; */
+    background-color: lavender;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.back-butt:hover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    gap: 40px;
+    padding: 50px;
+    justify-content: center;
+    margin-top: 5rem;
+    /* margin-left: 29rem;
+    margin-right: 32rem; */
+    border-radius: 50px;
+    border: 2px solid lavender;
+    background-color: white;
+    /* transition-delay: 0; */
+}

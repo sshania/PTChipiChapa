@@ -18,9 +18,9 @@
                     <img class="nav-logo" src="/assets/logo.png" alt="logo">
                 </a>
                 <ul class="nav-head2">
-                    <a class="home-butt" href="main">Home</a>
-                    <a class="activity-butt" id="act-act" href="activity">Activity</a>
-                    <a class="login-butt" href="login">Login</a>
+                    <a class="home-butt" href="{{route('main')}}">Home</a>
+                    <a class="activity-butt" href="{{route('activity')}}">Activity</a>
+                    <a class="login-butt" href="{{route('login')}}">Login</a>
                 </ul>
             </div>
         </ul>
@@ -86,8 +86,11 @@
             <div>
                 <input type="submit" value="Restore Data"/>            
             </div>
-
         </form>
+
+        <div class="back-butt">
+            <a class="bot-butt-text" href="{{route('activity')}}">Back</a>
+        </div>
     </div>
 </div>
     
