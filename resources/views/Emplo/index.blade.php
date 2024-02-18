@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{asset('css/createstyle.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 
 <body>
-    <h1>Data Employee</h1>
+<div class="img-bg-index">
+    <div class="head-idx">
+        <h1>Data Employee</h1>
+    </div>
 
-    <div>
+    <div class="text-idx">
         <div>
             @if(session()->has('sucess'))
                 <div>
@@ -18,10 +23,8 @@
                 </div>
             @endif
         </div>
-        <div>
-            <a href="{{ route('Emplo.create') }}">Insert Data</a>
-        </div>
 
+    <div class="container">
         <table border="1">
             <tr>
                 <th>ID</th>
@@ -63,7 +66,14 @@
                 </tr>
             @endforeach
         </table>
+    
+        <div class="act-butt">
+            <div class="inp-butt">
+                <a class="view-butt" href="{{route('activity')}}">Back</a>
+                <a class="input-butt" href="{{route('Emplo.create')}}">Insert Data</a>
+            </div>
     </div>
-
+    </div>
+</div>
 </body>
 </html>
